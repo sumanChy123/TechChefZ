@@ -1,0 +1,54 @@
+.home-container {
+    padding: 0 7%;
+    margin: auto;
+    background-color: #d2dbd8;
+    text-align: center;
+}
+
+.left-panel {
+    text-align: left;
+    min-height: 80vh;
+    padding: 50px 10px 20px 35px;
+    border-left: 3px solid #bed1cd;
+}
+
+.right-panel {
+    text-align: center;
+    min-height: 80vh;
+    vertical-align: top;
+    border: solid #bed1cd;
+    border-width: 0 3px;
+    background: transparent url("../../images/myimage4.png") no-repeat center;
+    background-size: contain;
+}
+
+.header {
+    color: black;
+    font-size: 4.5rem;
+}
+
+.details {
+    color: #8a968e;
+    padding: 25px 50px 25px 0;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu-Medium', sans-serif;
+}
+
+.pre-header {
+    color: #666c6f;
+    font-size: 1.1rem;
+}
+
+.pre-header>span {
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        font-size: 2.5rem;
+    }
+
+    .left-panel {
+        border-right: 3px solid #bed1cd;
+    }
+}

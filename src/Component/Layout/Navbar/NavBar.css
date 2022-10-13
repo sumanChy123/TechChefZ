@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #d2dbd8;
+    padding: 30px 7%;
+    border-bottom: 3px solid #bed1cd;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.nav-item{
+    padding: 0 1rem;
+}
+.nav-link{
+    font-size: 1rem;
+}
+.line-before{
+    position: relative;
+}
+.line-before::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    background-color: #bed1cd;
+    left: 0;    
+}
+@media only screen and (max-width: 768px) {
+    .line-before::before {
+        display: none;
+    }
+}

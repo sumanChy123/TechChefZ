@@ -1,0 +1,32 @@
+html, body{
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu'), url(./fonts/Ubuntu/Ubuntu-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu-Medium';
+  src: local('Ubuntu'), url(./fonts/Ubuntu/Ubuntu-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Light';
+  src: local('Ubuntu'), url(./fonts/Ubuntu/Ubuntu-Light.ttf) format('truetype');
+}
+@media only screen and (max-width: 1200px) {
+  html, body{
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,71 @@
+.main-div {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 0 7%;
+}
+
+
+.table-width {
+    width: 100%;
+    margin: auto;
+    padding: 1rem 2rem;
+    background-color: #f6f6f6;
+    border: solid rgba(190, 209, 205, 255);
+    border-width: 0 3px;
+}
+
+thead {
+    color: rgba(183, 186, 189, 255);
+}
+
+.greenBox {
+    background-color: #e0f8e7;
+    padding: 0.5rem;
+}
+
+.redBox {
+    padding: 0.5rem;
+    background-color: #f6d4d4;
+}
+
+table td {
+    font-size: 1.2rem;
+    padding-left: 0 !important;
+}
+
+table tr>td:first-child {
+    font-family: 'Ubuntu-Medium', sans-serif;
+}
+
+.text {
+    color: rgba(183, 186, 189, 255);
+    padding-left: 10px;
+}
+
+.arrow-space {
+    margin-left: 20px;
+}
+
+.space {
+    padding-left: 10px;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #70d692;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    animation: spin 1s linear infinite
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
